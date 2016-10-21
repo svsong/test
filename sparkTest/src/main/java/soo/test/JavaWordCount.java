@@ -32,6 +32,7 @@ public final class JavaWordCount {
   private static final Pattern SPACE = Pattern.compile(" ");
 
   public static void main(String[] args) throws Exception {
+    System.out.println("hello world");
     args = new String[1];
     args[0] = "c:/home/abc.txt";
     if (args.length < 1) {
